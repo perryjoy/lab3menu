@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>menu</Name>
+    <Description>&lt;Нет описания&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>menu</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="menu.vcxproj" File="menu.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">menu.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="menu.h">menu.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="my_graphics.h">my_graphics.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="menu.cpp">menu.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="my_graphics.cpp">my_graphics.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Source.cpp">Source.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
