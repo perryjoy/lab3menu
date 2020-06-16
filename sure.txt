@@ -1,0 +1,81 @@
+Menu
+  Position 0 0
+  Size 1200 1200
+  
+
+  Text
+    Position 400 200
+    Size 400 198
+    Color 808080
+    TColor 000000
+    Text
+      Resume
+    End
+  End
+
+  Text
+    Position 400 400
+    Size 400 198
+    Color 808080
+    TColor 000000
+    Text
+      New game
+    End
+  End
+
+  Text
+    Position 400 600
+    Size 400 198
+    Color 808080
+    TColor 000000
+    Text
+      Change level
+    End
+  End
+
+  Text
+    Position 400 800
+    Size 400 198
+    Color 808080
+    TColor 000000
+    Text
+      Exit game
+    End
+  End
+
+  Text
+    Position 250 500
+    Size 700 198
+    Color 8080F0
+    TColor 000000
+    Text
+      Are you trully want to quit?
+    End
+  End
+
+  Button
+    Position 250 698
+    Size 350 198
+    Color F08080
+    Color(H) FF0000
+    TColor 000000
+    Code 10
+    Text
+      Yes, i do!
+    End
+  End
+
+  Button
+    Position 600 698
+    Size 350 198
+    Color 80F080
+    Color(H) FF0000
+    TColor 000000
+    Code 11
+    Text
+      No, go back.
+    End
+  End
+
+
+End
